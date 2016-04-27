@@ -22,6 +22,7 @@ return [
         'AssetManager',
         'DoctrineModule',
         'DoctrineORMModule',
+        'CrModuleLayouts',
         'Application',
     ],
     // These are various options for the listeners attached to the ModuleManager

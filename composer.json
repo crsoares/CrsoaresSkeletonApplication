@@ -28,8 +28,8 @@
         "gedmo/doctrine-extensions": "^2.4",
         "beberlei/DoctrineExtensions": "^1.0",
         "doctrine/doctrine-migrations-bundle": "^1.1",
-        "crsoares/web-module-layouts": "dev-master",
-        "crsoares/assetmanager": "dev-master"
+        "crsoares/assetmanager": "dev-master",
+        "crsoares/cr-module-layouts": "dev-master"
     },
     "autoload": {
         "psr-4": {

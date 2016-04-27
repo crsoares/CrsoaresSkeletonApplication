@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "72d5ad12bc02e73e1223b29d1da3c193",
-    "content-hash": "1fd94b740b3044772d93f2912a750fd1",
+    "hash": "46db77d1ac19b0816d8ed69e66cfc34f",
+    "content-hash": "3c9bbc86085d3867bc80830b20d8eb22",
     "packages": [
         {
             "name": "beberlei/DoctrineExtensions",
@@ -191,6 +191,43 @@
             "time": "2016-04-25 02:59:38"
         },
         {
+            "name": "crsoares/cr-module-layouts",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://bitbucket.org/crsoares/crmodulelayout.git",
+                "reference": "3720f65ddefa6a7158bf8f282c79240fa09ad339"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://bitbucket.org/crsoares/crmodulelayout/get/3720f65ddefa6a7158bf8f282c79240fa09ad339.zip",
+                "reference": "3720f65ddefa6a7158bf8f282c79240fa09ad339",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "./Module.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Crysthiano de Aguiar Soares",
+                    "email": "crysthianophp@gmail.com"
+                }
+            ],
+            "description": "Aplicação multi-layout com Zend Framework.",
+            "homepage": "https://bitbucket.org/crsoares/crmodulelayout.git",
+            "keywords": [
+                "zf2"
+            ],
+            "time": "2016-04-27 02:34:58"
+        },
+        {
             "name": "crsoares/doctrine-module",
             "version": "dev-master",
             "source": {
@@ -343,43 +380,6 @@
                 "zf2"
             ],
             "time": "2016-04-24 04:05:04"
-        },
-        {
-            "name": "crsoares/web-module-layouts",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://bitbucket.org/crsoares/webmodulelayouts.git",
-                "reference": "fd36d09fdae214a963709b03168a2651b97df087"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://bitbucket.org/crsoares/webmodulelayouts/get/fd36d09fdae214a963709b03168a2651b97df087.zip",
-                "reference": "fd36d09fdae214a963709b03168a2651b97df087",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3"
-            },
-            "type": "library",
-            "autoload": {
-                "classmap": [
-                    "./Module.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "authors": [
-                {
-                    "name": "Crysthiano de Aguiar Soares",
-                    "email": "crysthianophp@gmail.com"
-                }
-            ],
-            "description": "Aplicação multi-layout com Zend Framework 2.",
-            "homepage": "https://bitbucket.org/crysthianophp/webmodulelayouts.git",
-            "keywords": [
-                "zf2"
-            ],
-            "time": "2016-03-08 12:56:08"
         },
         {
             "name": "doctrine/annotations",
@@ -4953,8 +4953,8 @@
         "zendframework/zend-mvc": 20,
         "crsoares/doctrine-orm-module": 20,
         "crsoares/doctrine-module": 20,
-        "crsoares/web-module-layouts": 20,
-        "crsoares/assetmanager": 20
+        "crsoares/assetmanager": 20,
+        "crsoares/cr-module-layouts": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
